@@ -21,9 +21,12 @@
 
 3. **建模與評估**:
    - 使用多個模型(Logistic Regression, Random Forest, XGBoost, LightGBM)進行訓練與驗證。
-   - 選擇 AUC 表現最佳的模型進行測試集預測。
+   - 選擇 AUC & Accuracy 表現最佳的模型進行測試集預測。
 
 ## 結果
-- 最佳模型: LightGBM (AUC = 0.9195, Accuracy = 0.8907)
+- 最佳模型: LightGBM (AUC = 0.9195, Accuracy = 0.8907)。
+- 使用模型對清洗過的檔案 `cleaned_test.csv` 進行預測。
 - 提交結果已保存為 `my_submission1.csv`。
 
+## 加分題
+- 經過混由矩陣(calculate_metrics.py)的計算，Model B 的F1 score(0.653)比 Model A (0.650)還要高，因此比較適合此案裡的情境。
