@@ -26,7 +26,7 @@
 ## 結果
 - 最佳模型: LightGBM (AUC = 0.9195, Accuracy = 0.8907)。
 - 使用模型對清洗過的檔案 `cleaned_test.csv` 進行預測。
-- 提交結果已保存為 `my_submission1.csv`。
+- 預測結果已保存為 `my_submission1.csv`。
 
 ## 加分題
 - 經過混由矩陣(calculate_metrics.py)的計算，Model B 的F1 score(0.653)比 Model A (0.650)還要高，因此比較適合此案裡的情境。
